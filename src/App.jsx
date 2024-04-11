@@ -10,7 +10,7 @@ function App() {
   let calc = (e) => {
     
     e.preventDefault();
-    if(weight == 0 || height ==0)
+    if(weight === 0 || height ===0)
     {
       alert("Please Enter Valid Values.")
     }
